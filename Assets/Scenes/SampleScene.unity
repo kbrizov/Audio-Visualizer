@@ -213,7 +213,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -413,9 +413,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 838f0589054a26e4cbd7578c85eddd79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_scalar: 64
   m_prefab: {fileID: 135704, guid: d88ba066b13234a468cc2285c45c5d34, type: 3}
+  m_scalar: 64
   m_numberOfObjects: 1024
+  m_FFTWindow: 2
   m_radius: 5
 --- !u!4 &1835657112
 Transform:
